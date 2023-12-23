@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^23.0.1",
+    "text-encoding": "^0.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "collectCoverage": true,
+    "coverageReporters": ["lcov", "text", "html"],
+    "coverageDirectory": "coverage"
+
+  }
+}
